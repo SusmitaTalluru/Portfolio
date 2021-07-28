@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset="utf-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta name='description' content="Susmita Talluru | Frontend Developer. Hi, I'm Susmita. I'm a Frontend developer living in Hyderabad, India. I spend my days practicing my coding and design skill. I would love to build a great and fancy website for you. Aside from web development, I enjoy listening music, exercise, and stalking beautiful looking websites.">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Righteous%7CSource+Sans+Pro:200,300,300i,400" rel="stylesheet">
+    <!-- Font awesome icons -->
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <!-- Used normalize.css since i'm not using bootstrap -->
+    <link rel="stylesheet" type="text/css" href="vendors/normalize.css">
+    <!-- Used grid css(http://www.responsivegridsystem.com/) for row and columns  -->
+    <link rel="stylesheet" type="text/css" href="vendors/grid.css">
+    <!-- custom css -->
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <!-- media queries -->
+    <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+    
+    <meta name="theme-color" content="#ffffff">
+    <!-- tab title -->
+    <title>Susmita Talluru | Frontend Developer</title>
+</head>
+
+<body>
+    <header>
+        <!-- navigation bar -->
+        <nav>
+            <div class='row'>
+                <ul class='main-nav'>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- navigation bar ends-->
+        <!-- name, social links and a button section -->
+        <div class='name-text-box'>
+            <h1 class='center'>Susmita Talluru</h1>
+            <p class='center tagline'>Frontend Developer</p>
+            <div class='center social-links'>
+                <a href="www.linkedin.com/in/SusmitaTalluru" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/SusmitaTalluru" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+            <div class='center know-me_better'><a href="#about">Know Me Better<i class="fas fa-arrow-down"></i></a></div>
+        </div>
+        <!-- name, social links and a button section ends-->
+    </header>
+    <!-- About section contains profile picture, small description about me, skillsets and my development flow -->
+    <section class='section-about' id='about'>
+        <div class='row'>
+            <h2 class='center'>About Me</h2>
+        </div>
+        <div class='row'>
+            <!-- profile pic -->
+            <div class='col span-1-of-2 profile-pic-container'><img src="./resources/Images/img.jpg"
+                    class='profile-pic' alt="my photo"></div>
+            <!-- description -->
+            <div class='col span-1-of-2'>
+                <p>Hi, I'm Susmita. I like to code things from scratch, and enjoy bringing ideas to life in the browser.
+                    Currently a graduate student seeking a challenging position as FrontEnd Developer in a well reputed organization.
+                </p>
+            </div>
+        </div>
+        <div class='row'>
+            <!-- skills -->
+            <ul class='skill-set'>
+                <li><i class="fab fa-html5"></i></li>
+                <li><i class="fab fa-css3-alt"></i></li>
+                <li><i class="fab fa-js"></i></li>
+                <li><i class="fab fa-git"></i></li>
+                <li><i class="fab fa-angular"></i></li>
+                <li><i class="fab fa-node"></i></li>
+            </ul>
+        </div>
+        <div class='row center'>
+            <!-- development flow -->
+            <div class='col span-1-of-2 box'>
+                <i class="fas fa-lightbulb"></i>
+                <h3>1. Define and Planning</h3>
+                <p>Define your audience and goal of your project. Plan the site structure and the content carefully.</p>
+            </div>
+            <div class='col span-1-of-2 box'>
+                <i class="fas fa-chart-bar"></i>
+                <h3>2. Research and prototyping</h3>
+                <p>Research current website design trends, marketing techniques and analyzing its impact on the
+                    audience. Create a prototype using pen and paper accordingly then move to design software to design
+                    it properly.</p>
+            </div>
+        </div>
+        <div class='row center'>
+            <div class='col span-1-of-2 box'>
+                <i class="fas fa-code"></i>
+                <h3>3. Code</h3>
+                <p>Once design reaches a certain aesthetics I code the project using my favorite text editor.</p>
+            </div>
+            <div class='col span-1-of-2 box'>
+                <i class="fas fa-tachometer-alt"></i>
+                <h3>4. Optimize</h3>
+                <p>In the end, I work on responsiveness and make website loading blazingly fast.</p>
+            </div>
+        </div>
+    </section>
+    <!-- about section ends -->
+    <!-- portfolio section contains image of project, small description, project type and visit the website button -->
+    <section class='section-portfolio' id='portfolio'>
+        <div class='row center'>
+            <h2>My Portfolio</h2>
+        </div>
+        <div class='row'>
+            <div class='col span-1-of-2 image-container'><img src="./resources/Images/github-octocat.png" alt="project 2 responsive whatsapp"></div>
+            <div class='col span-1-of-2 box'>
+                <h3>GitHub</h3>
+                <p>This is a GitHub kind of application which uses GitHub API where a user can login through his GitHub account and see 
+                    features like his public repos, gist’s, followers etc., and can also search for other users using Angular 8, JavaScript and Bootstrap.
+                     </p>
+                <br>
+                <p class='type'>Type: Website</p>
+                <a href="https://github.com/SusmitaTalluru/GitHub" target="_blank">I Wanna Look<i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col span-1-of-2 image-container'><img src="./resources/Images/zomato.jpg" alt="project 3 Open Movie"></div>
+            <div class='col span-1-of-2 box'>
+                <h3>Zomato</h3>
+                <p>A Zomato kind of application using Zomato’s API as backend. Application UI designed entirely from scratch using Bootstrap. It has features such as detecting the user location, and showing resturants 
+                    according to city or location,also shows information like menu, address with Google map, reviews etc.
+                    <br>
+                <p class='type'>Type: Website</p>
+                <a href="https://github.com/SusmitaTalluru/zomato" target="_blank">I Wanna Look<i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col span-1-of-2 image-container'><img src="./resources/Images/bitcoin.jpg" alt="project 1 bootstrap components"></div>
+            <div class='col span-1-of-2 box'>
+                <h3>Cryptocurrencies</h3>
+                <p>A web application that shows a list of crypto currencies using the coinmarketcap API.
+                    It has features like comparing any two crypto currencies, sorting the table using either price or marketcap, showing the price of a coin against time, for atleast 24 hours.
+                    </p>
+                <br>
+                <p class='type'>Type: Website</p>
+                <a href="https://github.com/SusmitaTalluru/CryptoCurrency" target="_blank">I Wanna Look<i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col span-1-of-2 image-container'><img src="./resources/Images/globe.jpg" alt="project 1 Search Countries"></div>
+            <div class='col span-1-of-2 box'>
+                <h3>Countries Of The World</h3>
+                <p>An Angular 6 application to get information about the countries all around the world using the rest countries API.</p>
+                <br>
+                <p class='type'>Type: Website</p>
+                <a href="https://github.com/SusmitaTalluru/countries-of-the-world" target="_blank">I Wanna Look<i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col span-1-of-2 image-container'><img src="./resources/Images/GOT.jpg" alt="project 4 GOT"></div>
+            <div class='col span-1-of-2 box'>
+                <h3>Game Of Thrones</h3>
+                <p>An angular application showing the books, characters and houses data with the help of Ice and Fire API.</p>
+                <br>
+                <p class='type'>Type: Website</p>
+                <a href="https://github.com/SusmitaTalluru/Game-Of-Thrones" target="_blank">I Wanna
+                    Look<i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+        
+        
+    </section>
+    <!-- section portfolio ends -->
+    <!-- section contact -->
+    
+    <section class='section-contact' id='contact'>
+        <div class='row'>
+            <h2 class='center'>Get In Touch</h2>
+        </div>
+        <div class='row center'>
+            <p style="color:gray">You can reach me via email or find me on social networks.<br> I would love to hear from you!</p>
+        </div>
+        <br>
+        <div class='row center'>
+            <a class="contact__link">susmita_talluru@outlook.com</a>
+            
+            <ul id="connect">
+                    <br>
+                <li>
+                    <span><a href="www.linkedin.com/in/SusmitaTalluru" target="_blank"><i class="fab fa-linkedin" style="font-size:48px;color:#0669A8"></i></a></span>
+                </li>
+              
+                <li>
+                    <span><a href="https://github.com/SusmitaTalluru" target="_blank"><i class="fab fa-github" style="font-size:48px;color:black"></i></a></span>
+                </li>
+</ul> 
+    </section>
+    <!-- section contact ends -->
+    
+    <footer>
+        <div class="row center">
+            Design with <span style="color:red;">💖</span> by Susmita Talluru | 2021
+        </div>
+    </footer>
+    <!-- Compiled and minified Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- js files for older browser support -->
+    <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/src/respond.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.js"></script>
+    <!-- email js for sending mail -->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <!-- custom script file -->
+    <script src="resources/js/script.js"></script>
+</body>
+
+</html>

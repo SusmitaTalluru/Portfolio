@@ -1,0 +1,170 @@
+/* Big tablet to 1200px (widths smaller than the 1140px row)*/
+
+@media only screen and (max-width: 1200px) {
+    .name-text-box {
+
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row {
+        padding: 0 2%;
+    }
+}
+
+
+
+
+
+
+
+/* Small tablet to big tablet:from 768px to 1023px*/
+
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 18px;
+    }
+    section {
+        padding: 10vh 0;
+    }
+
+    .section-about .box i {
+        font-size: 150%;
+    }
+}
+
+
+
+
+
+
+/* Small phones to small tablets: from 481px to 767px */
+
+@media only screen and (max-width:767px) {
+    body {
+        font-size: 16px;
+    }
+    section {
+        padding: 5vh 0;
+    }
+
+    h1 {
+        font-size: 300%;
+    }
+    h2 {
+        font-size: 150%;
+        margin-bottom: 30px;
+    }
+
+    .row,
+    .hero-text-box {
+        padding: 0 4%;
+    }
+    nav {
+        left: 0;
+    }
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+
+    .main-nav {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .main-nav li {
+        margin-left: 5vw;
+    }
+
+    .profile-pic-container {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .profile-pic {
+        width: 40%;
+        height: 40%;
+    }
+
+
+    .section-about p {
+        width: 99%;
+        margin: 0 1%;
+    }
+
+    .skill-set {
+        width: 100%;
+        margin: 5% 1%;
+    }
+
+    .skill-set li {
+        margin-left: 5%;
+    }
+
+    .section-about .box:first-child {
+        margin-top: 10%;
+    }
+    .section-about .row:last-child .box:first-child {
+        margin-top: 0;
+    }
+
+    .section-about .box i {
+        margin-bottom: 5px;
+    }
+
+    .image-container {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .section-portfolio a {
+        margin-bottom: 10px;
+    }
+
+    #myform {
+        width: 80%;
+        margin: 4% 10%;
+    }
+}
+
+
+
+
+
+
+
+/* Small phones from 0 to 480px such as iphones */
+
+@media only screen and (max-width:480px) {
+    section {
+        padding: 25px 0;
+    }
+
+    h1 {
+        font-size: 250%;
+    }
+    .main-nav {
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+    }
+    .social-links {
+        word-spacing: 30px;
+        margin-top: 70px;
+    }
+
+    #myform {
+        width: 100%;
+        margin: 4% 0;
+    }
+
+    #myform input,
+    #myform textarea {
+        width: 100%;
+        margin: 3% 0;
+        padding: 4%;
+    }
+}
